@@ -44,8 +44,8 @@ function Header() {
         <div style = {{backgroundColor: '#222222', width: '100vw', height: '35vh'}}>
         <b style = {{fontSize: "6em", color: "white", marginLeft:"23vw", marginTop:"5%", position:"absolute", float: "left", zIndex: "1"}} className = "title">OverWatch</b>
         <b style = {{fontSize: "6em", color: "white", marginLeft:"23vw", marginTop:"9%", position:"absolute", float: "left", zIndex: "1"}} className = "title">전적 분석 사이트</b>
-            <img src = {logo} style = {{width: '21.5%', height: '30%', paddingLeft: "3.5%", paddingTop: "2%", float: "left", position:"absolute"}}/>
-            <img src = {bg} style = {{marginLeft: "37%", position:"absolute", opacity: "0.2"}}/>
+            <img src = {logo} style = {{width: '21.5%', height: '31%', paddingLeft: "3.5%", paddingTop: "2%", float: "left", position:"absolute"}}/>
+            <img src = {bg} style = {{marginLeft: "37%", position:"absolute", opacity: "0.2",}}/>
             <b style = {{fontSize: "5em", color: "#D18515", marginLeft:"61%", marginTop:"12.5%", float: "left", position:"absolute", fontFamily: "koverwatch"}} className = "text-color">Best Hero</b>
 
             <Space direction="vertical">
