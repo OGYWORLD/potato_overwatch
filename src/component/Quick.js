@@ -17,11 +17,11 @@ function Quick() {
 
     return (
         <>
-        <p style = {{fontFamily: "koverwatch", fontSize: "30px", color: "#656565", position:"absolute", marginLeft: "2200px"}}> 빠른 대전 총 플레이 시간</p>
-        <p style = {{fontFamily: "koverwatch", fontSize: "150px", color: "#222222", position:"absolute", marginTop: "30px", marginLeft: "2230px"}}>169</p>
-        <p style = {{fontFamily: "koverwatch", fontSize: "30px", color: "#656565", position:"absolute", marginTop: "155px", marginLeft: "2410px"}}>시간</p>
+        <p style = {{fontFamily: "koverwatch", fontSize: "30px", color: "#656565", position:"absolute", marginLeft: "86%"}}> 빠른 대전 총 플레이 시간</p>
+        <p style = {{fontFamily: "koverwatch", fontSize: "150px", color: "#222222", position:"absolute", marginTop: "30px", marginLeft: "87%"}}>169</p>
+        <p style = {{fontFamily: "koverwatch", fontSize: "30px", color: "#656565", position:"absolute", marginTop: "155px", marginLeft: "94%"}}>시간</p>
 
-        <div style = {{ position: "absolute", marginTop: "20px",}}>
+        <div style = {{ position: "absolute", marginTop: "1%"}}>
         <Tabs tabPosition={tabPosition} size='large'>
           <TabPane tab="포지션 별 분석" key="1">
             <Position/>
