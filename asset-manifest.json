@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/potato_overwatch/static/css/main.1d459a93.chunk.css",
+    "main.js": "/potato_overwatch/static/js/main.27f6eb1e.chunk.js",
+    "main.js.map": "/potato_overwatch/static/js/main.27f6eb1e.chunk.js.map",
+    "runtime-main.js": "/potato_overwatch/static/js/runtime-main.417ad065.js",
+    "runtime-main.js.map": "/potato_overwatch/static/js/runtime-main.417ad065.js.map",
+    "static/css/2.a95be28f.chunk.css": "/potato_overwatch/static/css/2.a95be28f.chunk.css",
+    "static/js/2.51d611e0.chunk.js": "/potato_overwatch/static/js/2.51d611e0.chunk.js",
+    "static/js/2.51d611e0.chunk.js.map": "/potato_overwatch/static/js/2.51d611e0.chunk.js.map",
+    "static/js/3.fa8722ee.chunk.js": "/potato_overwatch/static/js/3.fa8722ee.chunk.js",
+    "static/js/3.fa8722ee.chunk.js.map": "/potato_overwatch/static/js/3.fa8722ee.chunk.js.map",
+    "index.html": "/potato_overwatch/index.html",
+    "static/css/2.a95be28f.chunk.css.map": "/potato_overwatch/static/css/2.a95be28f.chunk.css.map",
+    "static/css/main.1d459a93.chunk.css.map": "/potato_overwatch/static/css/main.1d459a93.chunk.css.map",
+    "static/js/2.51d611e0.chunk.js.LICENSE.txt": "/potato_overwatch/static/js/2.51d611e0.chunk.js.LICENSE.txt",
+    "static/media/battlenet.3a13b8df.png": "/potato_overwatch/static/media/battlenet.3a13b8df.png",
+    "static/media/bg.a687ee83.gif": "/potato_overwatch/static/media/bg.a687ee83.gif",
+    "static/media/Body.css": "/potato_overwatch/static/media/koverwatch.8811dc3c.ttf",
+    "static/media/logo.354be137.png": "/potato_overwatch/static/media/logo.354be137.png",
+    "static/media/logo.6ce24c58.svg": "/potato_overwatch/static/media/logo.6ce24c58.svg",
+    "static/media/mercy.95499744.png": "/potato_overwatch/static/media/mercy.95499744.png",
+    "static/media/mercy_icon.1b443a3f.png": "/potato_overwatch/static/media/mercy_icon.1b443a3f.png",
+    "static/media/overwatch.7dcd2dce.png": "/potato_overwatch/static/media/overwatch.7dcd2dce.png",
+    "static/media/reaper_icon.ed3fe088.png": "/potato_overwatch/static/media/reaper_icon.ed3fe088.png",
+    "static/media/zarya_icon.a1684af6.png": "/potato_overwatch/static/media/zarya_icon.a1684af6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.417ad065.js",
+    "static/css/2.a95be28f.chunk.css",
+    "static/js/2.51d611e0.chunk.js",
+    "static/css/main.1d459a93.chunk.css",
+    "static/js/main.27f6eb1e.chunk.js"
+  ]
+}
