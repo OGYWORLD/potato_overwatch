@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "koverwatch";
+    font-weight: 50;
+    src: url("../fonts/koverwatch.ttf") format("truetype");
+  }
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #222222 !important; 
+    font-weight: 1000;
+    font-size: 30px;
+    font-family: "koverwatch";
+ }
+
+ .ant-tabs-ink-bar {
+    position: absolute;
+    background: #D18515;
+    pointer-events: none;
+    width: 10px;
+ }
+
+ .ant-menu-item-selected {
+    background-color: #F8E064 !important;
+  }
