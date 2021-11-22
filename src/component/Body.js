@@ -14,7 +14,7 @@ function Body() {
 
     return(
         <>
-        <Tabs defaultActiveKey="1" onChange={callback} style = {{marginLeft: "1.5%"}} size = "large">
+        <Tabs defaultActiveKey="1" onChange={callback} style = {{marginLeft: "50px",}} size = "large">
         <TabPane tab={<span><ForwardOutlined /> 빠른대전</span>} key="1" style={{color: "black"}}>
         <Quick/>
         </TabPane>
