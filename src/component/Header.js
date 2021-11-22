@@ -41,11 +41,13 @@ const zarya_content = (
 function Header() {
     return (
         <>
-        <div style = {{backgroundColor: '#222222', width: '100vw', height: '35vh'}}>
-        <b style = {{fontSize: "6em", color: "white", marginLeft:"23vw", marginTop:"5%", position:"absolute", float: "left", zIndex: "1"}} className = "title">OverWatch</b>
-        <b style = {{fontSize: "6em", color: "white", marginLeft:"23vw", marginTop:"9%", position:"absolute", float: "left", zIndex: "1"}} className = "title">전적 분석 사이트</b>
-            <img src = {logo} style = {{width: '21.5%', height: '31%', paddingLeft: "3.5%", paddingTop: "2%", float: "left", position:"absolute"}}/>
-            <img src = {bg} style = {{marginLeft: "37%", position:"absolute", opacity: "0.2",}}/>
+        <div style = {{backgroundColor: '#222222', width: '100%', height: '34em'}}>
+
+            <b style = {{fontSize: "6em", color: "white", marginLeft:"23vw", marginTop:"5%", position:"absolute", float: "left", zIndex: "1"}} className = "title">OverWatch </b>
+            <b style = {{fontSize: "6em", color: "white", marginLeft:"23vw", marginTop:"9%", position:"absolute", float: "left", zIndex: "1"}} className = "title">전적 분석 사이트</b>
+
+            <img src = {logo} style = {{width: '21.5%', paddingLeft: "3.5%", paddingTop: "2%", float: "left", position:"absolute"}}/>
+            <img src = {bg} style = {{marginLeft: "37%", position:"absolute", opacity: "0.2", height: "35%"}}/>
             <b style = {{fontSize: "5em", color: "#D18515", marginLeft:"61%", marginTop:"12.5%", float: "left", position:"absolute", fontFamily: "koverwatch"}} className = "text-color">Best Hero</b>
 
             <Space direction="vertical">
@@ -78,10 +80,10 @@ function Header() {
             <b style = {{fontSize: "5.6em", color: "white", marginLeft:"71.2%", marginTop:"6.5%", position:"absolute", float: "left"}} className = "text-stroke">누룽지#12345
             </b>
             <hr style = {{height: "0.2s%", width: "15.5%", marginLeft: "68.5%", marginTop: "10.5%", backgroundColor: "#666A7B", position:"absolute"}}/>
-            <img src = {mercy} style = {{marginLeft:"85%", marginTop:"5%", position:"absolute", width: "9%", height: "21%"}}/>
+            <img src = {mercy} style = {{marginLeft:"85%", marginTop:"5%", position:"absolute", height: "21%"}}/>
         </div>
-        <div style = {{backgroundColor: '#F8E064', width: '100%', height: '1.5vh'}}></div>
-        <div style = {{backgroundColor: '#D18515', width: '100%', height: '2.5vh'}}></div>
+        <div style = {{backgroundColor: '#F8E064', width: '100%', height: '2em'}}></div>
+        <div style = {{backgroundColor: '#D18515', width: '100%', height: '3em'}}></div>
         <br/>
         </>
     )
