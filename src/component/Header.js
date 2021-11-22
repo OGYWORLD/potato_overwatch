@@ -45,7 +45,7 @@ function Header() {
         <img src = {bg} style = {{marginLeft: "36%", position:"absolute", opacity: "0.2"}}/>
 
 
-        <a style={{marginLeft: "17%"}}>
+        <a style={{marginLeft: "15%"}}>
         <b style = {{fontSize: "65px", color: "white", marginLeft:"360px", marginTop:"160px", position:"absolute", float: "left", zIndex: "1"}} className = "title">OverWatch</b>
         <b style = {{fontSize: "65px", color: "white", marginLeft:"360px", marginTop:"240px", position:"absolute", float: "left", zIndex: "1"}} className = "title">전적 분석 사이트</b>
             <img src = {logo} style = {{width: '350px', height: '280px', marginTop: "98px", float: "left", position:"absolute"}}/>
@@ -55,17 +55,17 @@ function Header() {
             </Space>
 
             <Button icon={<img src={battlent} style = {{width: "30px", height: "30px", marginLeft: "140px", position:"absolute", }} />} href="https://kr.battle.net/login/ko/?ref=https://kr.battle.net/support/ko/&app=support"
-            style = {{width: "200px", position:"absolute", marginLeft:"10px", marginTop:"365px", background: "#017aff"}}>
+            style = {{width: "200px", position:"absolute", marginLeft:"100px", marginTop:"365px", background: "#017aff"}}>
             <b style = {{marginRight: "25px", color: "white",}}>내 배틀태그 확인하기</b>
             </Button>
 
             <Button icon={<img src={ov} style = {{width: "25px", height: "25px", marginLeft: "152px", marginTop: "3px",position:"absolute", }} />} href="https://playoverwatch.com/ko-kr/"
-            style = {{width: "200px", position:"absolute", marginLeft:"250px", marginTop:"365px", background: "white"}}>
+            style = {{width: "200px", position:"absolute", marginLeft:"400px", marginTop:"365px", background: "white"}}>
             <b style = {{marginRight: "25px", color: "#222222"}}>오버워치 홈페이지 접속</b>
             </Button>
             </a>
 
-            <a style={{marginLeft: "35%"}}>
+            <a style={{marginLeft: "40%"}}>
 
             <b style = {{fontSize: "40px", color: "#D18515", marginLeft:"0px", marginTop:"350px", float: "left", position:"absolute", fontFamily: "koverwatch"}} className = "text-color">Best Hero</b>
                 <Popover content={zarya_content} title="자리야(Zarya) / 돌격(Tanker)">
