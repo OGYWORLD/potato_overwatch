@@ -31,13 +31,13 @@ function Position() {
     return(
         <>
         <div>
-        <TeamOutlined  style = {{fontSize: "50px"}}/>
-        <b style = {{fontFamily: "koverwatch", fontSize: "50px"}}> 포지션 별 분석   </b>
+        <TeamOutlined  style = {{fontSize: "5em"}}/>
+        <b style = {{fontFamily: "koverwatch", fontSize: "4em"}}> 포지션 별 분석   </b>
         
-        <Select defaultValue="돌격군(Tanker)" style={{  fontFamily: "koverwatch", fontSize: "20px"}} onChange={handleChange}>
-        <Option value="돌격군(Tanker)">돌격군(Tanker)</Option>
-        <Option value="공격군(Dealer)" >공격군(Dealer)</Option>
-        <Option value="지원군(Healer)" >지원군(Dealer)</Option>
+        <Select defaultValue="돌격군(Tanker)" style={{  fontFamily: "koverwatch", fontSize: "1.5em"}} onChange={handleChange}>
+        <Option value="돌격군(Tanker)" style={{  fontFamily: "koverwatch", fontSize: "1.5em"}}>돌격군(Tanker)</Option>
+        <Option value="공격군(Dealer)" style={{  fontFamily: "koverwatch", fontSize: "1.5em"}}>공격군(Dealer)</Option>
+        <Option value="지원군(Healer)" style={{  fontFamily: "koverwatch", fontSize: "1.5em"}}>지원군(Dealer)</Option>
         </Select>
         </div>
 
@@ -46,9 +46,9 @@ function Position() {
             (con == "돌격군(Tanker)") && ( 
                 <div style = {{fontFamily: "koverwatch"}}>
                 <br/><br/>
-                <PieChartOutlined style = {{fontSize: "40px"}}/>
-                <b style = {{fontFamily: "koverwatch", fontSize: "40px", }}> 막은 피해량 </b>
-                <Button type="primary" onClick={showModal} style = {{marginLeft: "5%", position:"absolute", fontSize:"20px", height: "25%", marginTop: "1.5%"}}>
+                <PieChartOutlined style = {{fontSize: "3em"}}/>
+                <b style = {{fontFamily: "koverwatch", fontSize: "3em", }}> 막은 피해량 </b>
+                <Button type="primary" onClick={showModal} style = {{marginLeft: "5%", position:"absolute", fontSize:"1.5em", height: "25%", marginTop: "1.5%"}}>
                 분석 세부 내용
                 </Button>
                 <Modal title="분석 세부 내용" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} style = {{fontFamily: "koverwatch"}}>
@@ -65,8 +65,8 @@ function Position() {
             (con == "공격군(Dealer)") && ( 
                 <div>
                 <br/><br/>
-                <PieChartOutlined style = {{fontSize: "40px"}}/>
-                <b style = {{fontFamily: "koverwatch", fontSize: "40px"}}> 준 피해량 </b>
+                <PieChartOutlined style = {{fontSize: "3em"}}/>
+                <b style = {{fontFamily: "koverwatch", fontSize: "3em"}}> 준 피해량 </b>
                 </div>)
         }
 
@@ -75,8 +75,8 @@ function Position() {
             (con == "지원군(Healer)") && ( 
                 <div>
                 <br/><br/>
-                <PieChartOutlined style = {{fontSize: "40px"}}/>
-                <b style = {{fontFamily: "koverwatch", fontSize: "40px"}}> 평균 치유량 </b>
+                <PieChartOutlined style = {{fontSize: "3em"}}/>
+                <b style = {{fontFamily: "koverwatch", fontSize: "3em"}}> 평균 치유량 </b>
                 </div>)
         }
         </>

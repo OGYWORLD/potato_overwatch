@@ -42,11 +42,11 @@ function Header() {
     return (
         <>
         <div style = {{backgroundColor: '#222222', width: '100vw', height: '35vh'}}>
-        <b style = {{fontSize: "80px", color: "white", marginLeft:"23vw", marginTop:"5%", position:"absolute", float: "left", zIndex: "1"}} className = "title">OverWatch</b>
-        <b style = {{fontSize: "80px", color: "white", marginLeft:"23vw", marginTop:"9%", position:"absolute", float: "left", zIndex: "1"}} className = "title">전적 분석 사이트</b>
+        <b style = {{fontSize: "6em", color: "white", marginLeft:"23vw", marginTop:"5%", position:"absolute", float: "left", zIndex: "1"}} className = "title">OverWatch</b>
+        <b style = {{fontSize: "6em", color: "white", marginLeft:"23vw", marginTop:"9%", position:"absolute", float: "left", zIndex: "1"}} className = "title">전적 분석 사이트</b>
             <img src = {logo} style = {{width: '21.5%', height: '30%', paddingLeft: "3.5%", paddingTop: "2%", float: "left", position:"absolute"}}/>
             <img src = {bg} style = {{marginLeft: "37%", position:"absolute", opacity: "0.2"}}/>
-            <b style = {{fontSize: "70px", color: "#D18515", marginLeft:"61%", marginTop:"12.5%", float: "left", position:"absolute", fontFamily: "koverwatch"}} className = "text-color">Best Hero</b>
+            <b style = {{fontSize: "5em", color: "#D18515", marginLeft:"61%", marginTop:"12.5%", float: "left", position:"absolute", fontFamily: "koverwatch"}} className = "text-color">Best Hero</b>
 
             <Space direction="vertical">
             <Search placeholder="닉네임#배틀태그" onSearch={onSearch} style={{ width: "16.7%", position:"absolute", marginLeft:"4%", marginTop:"13.6%", }} />
@@ -71,11 +71,11 @@ function Header() {
             </Popover>
 
             <Popover content={reaper_content} title="리퍼(reaper) / 공격(Dealer)">
-            <img src = {reaper_icon} style = {{position:"absolute", marginLeft:"80.7%", marginTop:"320px", float: "left", height: "100px"}} />
+            <img src = {reaper_icon} style = {{position:"absolute", marginLeft:"80.7%", marginTop:"12.5%", float: "left", height: "8.3%"}} />
             </Popover>
             
-            <b style = {{fontSize: "27px", color: "#D18515", marginLeft:"71.2%", marginTop:"5%", position:"absolute", float: "left"}} className = "title">닉네임 #배틀태그</b>
-            <b style = {{fontSize: "80px", color: "white", marginLeft:"71.2%", marginTop:"6.5%", position:"absolute", float: "left"}} className = "text-stroke">누룽지#12345
+            <b style = {{fontSize: "2.3em", color: "#D18515", marginLeft:"71.2%", marginTop:"5%", position:"absolute", float: "left"}} className = "title">닉네임 #배틀태그</b>
+            <b style = {{fontSize: "5.6em", color: "white", marginLeft:"71.2%", marginTop:"6.5%", position:"absolute", float: "left"}} className = "text-stroke">누룽지#12345
             </b>
             <hr style = {{height: "0.2s%", width: "15.5%", marginLeft: "68.5%", marginTop: "10.5%", backgroundColor: "#666A7B", position:"absolute"}}/>
             <img src = {mercy} style = {{marginLeft:"85%", marginTop:"5%", position:"absolute", width: "9%", height: "21%"}}/>
