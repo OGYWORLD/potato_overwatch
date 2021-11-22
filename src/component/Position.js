@@ -31,10 +31,10 @@ function Position() {
     return(
         <>
         <div style = {{marginLeft:"30px"}}>
-        <TeamOutlined  style = {{fontSize: "50px"}}/>
-        <b style = {{fontFamily: "koverwatch", fontSize: "50px"}}> 포지션 별 분석</b>
+        <TeamOutlined  style = {{fontSize: "40px"}}/>
+        <b style = {{fontFamily: "koverwatch", fontSize: "30px"}}> 포지션 별 분석</b>
 
-        <Select defaultValue="돌격군(Tanker)" style={{ width: 140, fontFamily: "koverwatch", fontSize: "20px", marginLeft: "20px" }} onChange={handleChange}>
+        <Select defaultValue="돌격군(Tanker)" style={{ width: "120px", fontFamily: "koverwatch", fontSize: "16px", marginLeft: "20px" }} onChange={handleChange}>
         <Option value="돌격군(Tanker)">돌격군(Tanker)</Option>
         <Option value="공격군(Dealer)" >공격군(Dealer)</Option>
         <Option value="지원군(Healer)" >지원군(Dealer)</Option>
@@ -46,9 +46,9 @@ function Position() {
             // 돌격군 선택 시
             (con == "돌격군(Tanker)") && ( 
                 <div style = {{fontFamily: "koverwatch"}}>
-                <PieChartOutlined style = {{fontSize: "40px", marginLeft: "40px", marginTop: "50px"}}/>
-                <b style = {{fontFamily: "koverwatch", fontSize: "40px", }}> 막은 피해량 </b>
-                <Button type="primary" onClick={showModal} style = {{marginLeft: "30px", position:"absolute", marginTop: "52px", fontSize:"20px", height: "40px"}}>
+                <PieChartOutlined style = {{fontSize: "30px", marginLeft: "40px", marginTop: "50px"}}/>
+                <b style = {{fontFamily: "koverwatch", fontSize: "30px", }}> 막은 피해량 </b>
+                <Button type="primary" onClick={showModal} style = {{marginLeft: "30px", position:"absolute", marginTop: "49px", fontSize:"17px", height: "35px"}}>
                 분석 세부 내용
                 </Button>
                 <Modal title="분석 세부 내용" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} style = {{fontFamily: "koverwatch"}}>
