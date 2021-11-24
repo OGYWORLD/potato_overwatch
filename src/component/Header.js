@@ -55,12 +55,12 @@ function Header() {
             </Space>
 
             <Button icon={<img src={battlent} style = {{width: "30px", height: "30px", marginLeft: "140px", position:"absolute", }} />} href="https://kr.battle.net/login/ko/?ref=https://kr.battle.net/support/ko/&app=support"
-            style = {{width: "200px", position:"absolute", marginLeft:"100px", marginTop:"365px", background: "#017aff"}}>
+            style = {{width: "200px", position:"absolute", marginLeft:"20px", marginTop:"365px", background: "#017aff"}}>
             <b style = {{marginRight: "25px", color: "white",}}>내 배틀태그 확인하기</b>
             </Button>
 
             <Button icon={<img src={ov} style = {{width: "25px", height: "25px", marginLeft: "152px", marginTop: "3px",position:"absolute", }} />} href="https://playoverwatch.com/ko-kr/"
-            style = {{width: "200px", position:"absolute", marginLeft:"400px", marginTop:"365px", background: "white"}}>
+            style = {{width: "200px", position:"absolute", marginLeft:"240px", marginTop:"365px", background: "white"}}>
             <b style = {{marginRight: "25px", color: "#222222"}}>오버워치 홈페이지 접속</b>
             </Button>
             </a>
