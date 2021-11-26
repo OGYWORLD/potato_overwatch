@@ -22,3 +22,21 @@
 .koverWatch {
     font-family: "koverwatch";
 }
+
+.smaller {
+    margin-left: 15%;
+}
+
+.outer-smaller{
+    margin-left: 40%;
+}
+
+@media screen and (max-width: 1700px) {
+    .smaller {
+        margin-left: 5%;
+    }
+
+    .outer-smaller{
+        margin-left: 50%;
+    }
+}

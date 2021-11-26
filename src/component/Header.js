@@ -45,7 +45,7 @@ function Header() {
         <img src = {bg} style = {{marginLeft: "36%", position:"absolute", opacity: "0.2"}}/>
 
 
-        <a style={{marginLeft: "15%"}}>
+        <a className="smaller">
         <b style = {{fontSize: "65px", color: "white", marginLeft:"360px", marginTop:"160px", position:"absolute", float: "left", zIndex: "1"}} className = "title">OverWatch</b>
         <b style = {{fontSize: "65px", color: "white", marginLeft:"360px", marginTop:"240px", position:"absolute", float: "left", zIndex: "1"}} className = "title">전적 분석 사이트</b>
             <img src = {logo} style = {{width: '350px', height: '280px', marginTop: "98px", float: "left", position:"absolute"}}/>
@@ -65,7 +65,7 @@ function Header() {
             </Button>
             </a>
 
-            <a style={{marginLeft: "40%"}}>
+            <a className="outer-smaller">
 
             <b style = {{fontSize: "40px", color: "#D18515", marginLeft:"0px", marginTop:"350px", float: "left", position:"absolute", fontFamily: "koverwatch"}} className = "text-color">Best Hero</b>
                 <Popover content={zarya_content} title="자리야(Zarya) / 돌격(Tanker)">
