@@ -31,6 +31,10 @@
     margin-left: 40%;
 }
 
+.background-logo{
+    margin-left: 35%;
+}
+
 @media screen and (max-width: 1700px) {
     .smaller {
         margin-left: 5%;
@@ -38,5 +42,9 @@
 
     .outer-smaller{
         margin-left: 50%;
+    }
+
+    .background-logo{
+        margin-left: 30%;
     }
 }

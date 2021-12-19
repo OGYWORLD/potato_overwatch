@@ -42,7 +42,7 @@ function Header() {
     return (
         <>
         <div style = {{backgroundColor: '#222222', width: '100%', height: '430px'}}>
-        <img src = {bg} style = {{marginLeft: "36%", position:"absolute", opacity: "0.2"}}/>
+        <img src = {bg} style = {{position:"absolute", opacity: "0.2"}} className = "background-logo"/>
 
 
         <a className="smaller">
