@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/potato_overwatch/static/css/main.3a8b9e60.chunk.css",
-    "main.js": "/potato_overwatch/static/js/main.fcc78cdb.chunk.js",
-    "main.js.map": "/potato_overwatch/static/js/main.fcc78cdb.chunk.js.map",
+    "main.js": "/potato_overwatch/static/js/main.caa85338.chunk.js",
+    "main.js.map": "/potato_overwatch/static/js/main.caa85338.chunk.js.map",
     "runtime-main.js": "/potato_overwatch/static/js/runtime-main.be0db885.js",
     "runtime-main.js.map": "/potato_overwatch/static/js/runtime-main.be0db885.js.map",
     "static/css/2.a95be28f.chunk.css": "/potato_overwatch/static/css/2.a95be28f.chunk.css",
@@ -40,6 +40,6 @@
     "static/css/2.a95be28f.chunk.css",
     "static/js/2.fc5613b0.chunk.js",
     "static/css/main.3a8b9e60.chunk.css",
-    "static/js/main.fcc78cdb.chunk.js"
+    "static/js/main.caa85338.chunk.js"
   ]
 }
