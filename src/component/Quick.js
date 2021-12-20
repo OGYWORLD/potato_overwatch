@@ -23,10 +23,7 @@ function Quick() {
           <TabPane tab="포지션 별 분석" key="1">
             <Position/>
           </TabPane>
-          <TabPane tab="상황 별 분석" key="2">
-            상황 별
-          </TabPane>
-          <TabPane tab="맵 별 분석" key="3">
+          <TabPane tab="맵 별 분석" key="2">
             맵 별
           </TabPane>
         </Tabs>

@@ -4,6 +4,8 @@ import {TeamOutlined, PieChartOutlined, DownOutlined} from '@ant-design/icons';
 import "../stylesheet/Body.css"
 
 import PositionSituTanker from './PositionSituTanker';
+import PositionSituDealer from './PositionSituDealer';
+import PositionSituHealer from './PositionSituHealer';
 
 const { Option } = Select;
 
@@ -36,8 +38,8 @@ function Position() {
         <div style = {{marginLeft:"30px"}}>
         <TeamOutlined  style = {{fontSize: "40px"}}/>
         <b style = {{fontFamily: "koverwatch", fontSize: "30px"}}> 포지션 별 분석</b>
-
         <Select defaultValue="돌격군(Tanker)" style={{ width: "120px", fontFamily: "koverwatch", fontSize: "16px", marginLeft: "20px" }} onChange={handleChange}>
+
         <Option value="돌격군(Tanker)">돌격군(Tanker)</Option>
         <Option value="공격군(Dealer)" >공격군(Dealer)</Option>
         <Option value="지원군(Healer)" >지원군(Dealer)</Option>
@@ -56,8 +58,7 @@ function Position() {
             // 공격군 선택 시
             (con == "공격군(Dealer)") && ( 
                 <div>
-                <PieChartOutlined style = {{fontSize: "40px", marginLeft: "40px", marginTop: "50px"}}/>
-                <b style = {{fontFamily: "koverwatch", fontSize: "40px"}}> 준 피해량 </b>
+                <PositionSituDealer/>
                 </div>)
         }
 
@@ -65,8 +66,7 @@ function Position() {
             // 지원군 선택 시
             (con == "지원군(Healer)") && ( 
                 <div>
-                <PieChartOutlined style = {{fontSize: "40px", marginLeft: "40px", marginTop: "50px"}}/>
-                <b style = {{fontFamily: "koverwatch", fontSize: "40px"}}> 평균 치유량 </b>
+                <PositionSituHealer/>
                 </div>)
         }
         </>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Quick from "./Quick"
+import Competition from "./Competition"
 import { Tag, Tabs } from 'antd';
 import "../stylesheet/Body.css"
 import { ForwardOutlined, TrophyOutlined} from '@ant-design/icons';
@@ -19,7 +20,7 @@ function Body() {
         <Quick/>
         </TabPane>
         <TabPane tab={<span><TrophyOutlined />경쟁전</span>} key="2">
-        Content of Tab Pane 2
+        <Competition/>
         </TabPane>
         </Tabs>
         </>
