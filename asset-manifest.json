@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/potato_overwatch/static/css/main.3a8b9e60.chunk.css",
-    "main.js": "/potato_overwatch/static/js/main.caa85338.chunk.js",
-    "main.js.map": "/potato_overwatch/static/js/main.caa85338.chunk.js.map",
+    "main.js": "/potato_overwatch/static/js/main.c472d218.chunk.js",
+    "main.js.map": "/potato_overwatch/static/js/main.c472d218.chunk.js.map",
     "runtime-main.js": "/potato_overwatch/static/js/runtime-main.be0db885.js",
     "runtime-main.js.map": "/potato_overwatch/static/js/runtime-main.be0db885.js.map",
     "static/css/2.a95be28f.chunk.css": "/potato_overwatch/static/css/2.a95be28f.chunk.css",
-    "static/js/2.fc5613b0.chunk.js": "/potato_overwatch/static/js/2.fc5613b0.chunk.js",
-    "static/js/2.fc5613b0.chunk.js.map": "/potato_overwatch/static/js/2.fc5613b0.chunk.js.map",
+    "static/js/2.7294d683.chunk.js": "/potato_overwatch/static/js/2.7294d683.chunk.js",
+    "static/js/2.7294d683.chunk.js.map": "/potato_overwatch/static/js/2.7294d683.chunk.js.map",
     "static/js/3.1d8df135.chunk.js": "/potato_overwatch/static/js/3.1d8df135.chunk.js",
     "static/js/3.1d8df135.chunk.js.map": "/potato_overwatch/static/js/3.1d8df135.chunk.js.map",
     "index.html": "/potato_overwatch/index.html",
     "static/css/2.a95be28f.chunk.css.map": "/potato_overwatch/static/css/2.a95be28f.chunk.css.map",
     "static/css/main.3a8b9e60.chunk.css.map": "/potato_overwatch/static/css/main.3a8b9e60.chunk.css.map",
-    "static/js/2.fc5613b0.chunk.js.LICENSE.txt": "/potato_overwatch/static/js/2.fc5613b0.chunk.js.LICENSE.txt",
+    "static/js/2.7294d683.chunk.js.LICENSE.txt": "/potato_overwatch/static/js/2.7294d683.chunk.js.LICENSE.txt",
     "static/media/Dva.035c2737.png": "/potato_overwatch/static/media/Dva.035c2737.png",
     "static/media/ana.b7b297e2.png": "/potato_overwatch/static/media/ana.b7b297e2.png",
     "static/media/ashe.57a07805.png": "/potato_overwatch/static/media/ashe.57a07805.png",
@@ -38,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.be0db885.js",
     "static/css/2.a95be28f.chunk.css",
-    "static/js/2.fc5613b0.chunk.js",
+    "static/js/2.7294d683.chunk.js",
     "static/css/main.3a8b9e60.chunk.css",
-    "static/js/main.caa85338.chunk.js"
+    "static/js/main.c472d218.chunk.js"
   ]
 }
