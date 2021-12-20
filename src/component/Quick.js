@@ -19,14 +19,7 @@ function Quick() {
         <>
 
         <div style = {{ position: "absolute", marginTop: "20px",}}>
-        <Tabs tabPosition={tabPosition} size='large'>
-          <TabPane tab="포지션 별 분석" key="1">
-            <Position/>
-          </TabPane>
-          <TabPane tab="맵 별 분석" key="2">
-            맵 별
-          </TabPane>
-        </Tabs>
+        <Position/>
         </div>
 
     </>

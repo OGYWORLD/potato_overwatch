@@ -9,8 +9,6 @@ import lucio from "../image/lucio.png"
 import moira from "../image/moira.png"
 import zen from "../image/zen.png"
 import ana from "../image/ana.png"
-import zarya from "../image/zayra_icon.png"
-import Dva from "../image/Dva.png"
 
 const { Option } = Select;
 
@@ -85,7 +83,7 @@ function PositionSituHealer() {
             ],
         };
 
-        return <Pie {...config1} style = {{position:"absolute", marginLeft: "90%", width: "500px"}}/>
+        return <Pie {...config1} style = {{position:"absolute", marginLeft: "130%", width: "500px"}}/>
       }
 
       function two() {
@@ -141,7 +139,7 @@ function PositionSituHealer() {
               },
             ],
         };
-        return <Pie {...config2} style = {{position:"absolute", marginLeft: "90%", width: "500px"}}/>
+        return <Pie {...config2} style = {{position:"absolute", marginLeft: "130%", width: "500px"}}/>
       }
 
       function third() {
@@ -197,7 +195,7 @@ function PositionSituHealer() {
               },
             ],
         };
-        return <Pie {...config3} style = {{position:"absolute", marginLeft: "90%", width: "500px"}}/>
+        return <Pie {...config3} style = {{position:"absolute", marginLeft: "130%", width: "500px"}}/>
       }
 
       function four() {
@@ -253,7 +251,7 @@ function PositionSituHealer() {
               },
             ],
         };
-        return <Pie {...config4} style = {{position:"absolute", marginLeft: "90%", width: "500px"}}/>
+        return <Pie {...config4} style = {{position:"absolute", marginLeft: "130%", width: "500px"}}/>
       }
 
     

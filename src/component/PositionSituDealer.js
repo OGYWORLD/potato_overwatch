@@ -118,7 +118,7 @@ function PositionSituDealer() {
             ],
         };
 
-        return <Pie {...config1} style = {{position:"absolute", marginLeft: "70%", width: "500px"}}/>
+        return <Pie {...config1} style = {{position:"absolute", marginLeft: "90%", width: "500px"}}/>
       }
 
       function third() {
@@ -178,7 +178,7 @@ function PositionSituDealer() {
               },
             ],
         };
-        return <Pie {...config3} style = {{position:"absolute", marginLeft: "70%", width: "500px"}}/>
+        return <Pie {...config3} style = {{position:"absolute", marginLeft: "90%", width: "500px"}}/>
       }
 
       function four() {
@@ -270,7 +270,7 @@ function PositionSituDealer() {
               },
             ],
         };
-        return <Pie {...config4} style = {{position:"absolute", marginLeft: "70%", width: "500px"}}/>
+        return <Pie {...config4} style = {{position:"absolute", marginLeft: "90%", width: "500px"}}/>
       }
 
     

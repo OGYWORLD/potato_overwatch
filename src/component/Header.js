@@ -19,22 +19,22 @@ const onSearch = value => console.log(value);
 
 const zarya_content = (
     <div>
-      <p>총 플레이 시간: 20시간</p>
-      <p>메달 개수: </p>
+      <p>총 플레이 시간: 14시간</p>
+      <p>메달 개수: 305개</p>
     </div>
 );
 
   const mercy_content = (
     <div>
-      <p>총 플레이 시간: 20시간</p>
-      <p>메달 개수: </p>
+      <p>총 플레이 시간: 44시간</p>
+      <p>메달 개수: 513개</p>
     </div>
 );
 
   const reaper_content = (
     <div>
-      <p>총 플레이 시간: 20시간</p>
-      <p>메달 개수: </p>
+      <p>총 플레이 시간: 3시간</p>
+      <p>메달 개수: 88개</p>
     </div>
 );
 
