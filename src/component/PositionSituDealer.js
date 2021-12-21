@@ -27,6 +27,7 @@ function PositionSituDealer() {
         setIsModalVisible(false);
       };
 
+      {/* 준 피해량 파이차트 작성 코드*/}
       function one() {
         const data = [
             {
@@ -121,6 +122,7 @@ function PositionSituDealer() {
         return <Pie {...config1} style = {{position:"absolute", marginLeft: "90%", width: "500px"}}/>
       }
 
+      {/* 승리 횟수 파이차트 작성 코드*/}
       function third() {
         const data = [
             {
@@ -181,6 +183,7 @@ function PositionSituDealer() {
         return <Pie {...config3} style = {{position:"absolute", marginLeft: "90%", width: "500px"}}/>
       }
 
+      {/* 추천 영웅 파이차트 작성 코드*/}
       function four() {
         const data = [
             {

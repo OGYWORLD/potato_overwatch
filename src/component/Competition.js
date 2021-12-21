@@ -8,6 +8,7 @@ import ana from "../image/ana.png"
 import mercy from "../image/mercy.png"
 import lucio from "../image/lucio.png"
 
+{/* 모스트 영웅 테이블 코드 */}
 const dataSource = [
     {
       key: '1',
@@ -84,6 +85,7 @@ const dataSource = [
     },
   ];
 
+  {/* 시즌에 따른 배치점수와 승률에 관한 코드 */}
 function one() {
     
     const data = [
@@ -167,6 +169,7 @@ function one() {
       return <DualAxes {...config} style={{marginRight: "25%", marginLeft: "80px"}}/>
 }
 
+{/* 모스트 영웅 누적 파이차트 코드*/}
 function two() {
     const data = [
         {
@@ -208,6 +211,7 @@ function two() {
     return <Pie {...config1} style = {{position:"absolute", marginLeft: "45%", width: "500px"}}/>
 }
 
+{/* 전제통계 레이더 플롯 코드*/}
 function rader() {
     const data = [
         {
@@ -261,6 +265,7 @@ function rader() {
       return <Radar {...config} style = {{marginTop:"70px", marginRight:"400px" }}/>
 }
 
+{/* 티어 예측 선그래프 코드*/}
 function reg() {
     const data = [
         {
@@ -339,6 +344,7 @@ function Competition() {
     return(
         <div style = {{fontFamily: "koverwatch"}}>
 
+        {/* 바디부분*/}
         <PieChartOutlined style = {{fontSize: "30px", marginLeft: "40px", marginTop: "50px"}}/>
         <b style = {{fontFamily: "koverwatch", fontSize: "30px", position:"absolute", marginTop:"40px", marginLeft:"10px" }}> 시즌 별 한 눈에 보기 </b>
         <ex style = {{marginLeft: "220px", fontSize: "17px", color: "#787A69"}}>

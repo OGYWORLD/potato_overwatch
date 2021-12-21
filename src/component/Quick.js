@@ -17,7 +17,7 @@ function Quick() {
 
     return (
         <>
-
+    {/* 경쟁전 코드 (원래 탭을 여러 개 구성하려 했으나 하지 않음)*/}
         <div style = {{ position: "absolute", marginTop: "20px",}}>
         <Position/>
         </div>

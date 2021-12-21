@@ -28,6 +28,7 @@ function PositionSituTanker() {
         setIsModalVisible(false);
       };
 
+      {/* 막은 피해량 파이차트 코드*/}
       function one() {
         const data = [
             {
@@ -81,6 +82,7 @@ function PositionSituTanker() {
         return <Pie {...config1} style = {{position:"absolute", marginLeft: "70%", width: "500px"}}/>
       }
 
+      {/* 준 피해량 파이차트 코드*/}
       function two() {
         const data = [
             {
@@ -141,6 +143,7 @@ function PositionSituTanker() {
         return <Pie {...config2} style = {{position:"absolute", marginLeft: "70%", width: "500px"}}/>
       }
 
+      {/* 승리횟수 파이차트 코드*/}
       function third() {
         const data = [
             {
@@ -201,6 +204,7 @@ function PositionSituTanker() {
         return <Pie {...config3} style = {{position:"absolute", marginLeft: "70%", width: "500px"}}/>
       }
 
+      {/* 추천 영웅 파이차트 코드*/}
       function four() {
         const data = [
             {

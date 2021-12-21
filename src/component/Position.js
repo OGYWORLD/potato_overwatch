@@ -33,6 +33,7 @@ function Position() {
         setIsModalVisible(false);
       };
 
+      {/* 빠른대전 옵션 선택 부분*/}
     return(
         <>
         <div style = {{marginLeft:"30px"}}>

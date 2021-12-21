@@ -17,6 +17,7 @@ const { Search } = Input;
 const onSearch = value => console.log(value);
 
 
+// 상단 오른쪽 이미지 툴팁 부분
 const zarya_content = (
     <div>
       <p>총 플레이 시간: 14시간</p>
@@ -41,6 +42,7 @@ const zarya_content = (
 function Header() {
     return (
         <>
+        {/* 배경부분 퍼블코드*/}
         <div style = {{backgroundColor: '#222222', width: '100%', height: '430px'}}>
         <img src = {bg} style = {{position:"absolute", opacity: "0.2"}} className = "background-logo"/>
 
@@ -54,6 +56,7 @@ function Header() {
             <Search placeholder="닉네임#배틀태그" onSearch={onSearch} style={{ width: "360px", position:"absolute", marginLeft:"10px", marginTop:"5px", }} />
             </Space>
 
+            {/* 상단 배틀태그 확인하기와 오버워치 홈페이지 접속 버튼 리다이렉트 코드*/}
             <Button icon={<img src={battlent} style = {{width: "30px", height: "30px", marginLeft: "140px", position:"absolute", }} />} href="https://kr.battle.net/login/ko/?ref=https://kr.battle.net/support/ko/&app=support"
             style = {{width: "200px", position:"absolute", marginLeft:"20px", marginTop:"365px", background: "#017aff"}}>
             <b style = {{marginRight: "25px", color: "white",}}>내 배틀태그 확인하기</b>
@@ -67,6 +70,7 @@ function Header() {
 
             <a className="outer-smaller">
 
+            {/* 오른쪽 상단 툴팁 이미지 코드*/}
             <b style = {{fontSize: "40px", color: "#D18515", marginLeft:"0px", marginTop:"350px", float: "left", position:"absolute", fontFamily: "koverwatch"}} className = "text-color">Best Hero</b>
                 <Popover content={zarya_content} title="자리야(Zarya) / 돌격(Tanker)">
                 <img src = {zarya_icon} style = {{position:"absolute", marginLeft:"140px", marginTop:"340px", float: "left", height: "70px"}} />

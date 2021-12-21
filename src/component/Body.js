@@ -13,6 +13,7 @@ function callback(key) {
 
 function Body() {
 
+  {/* 경쟁전 빠른대전 tab 코드*/}
     return(
         <>
         <Tabs defaultActiveKey="1" onChange={callback} className="left-margin" size = "large">
