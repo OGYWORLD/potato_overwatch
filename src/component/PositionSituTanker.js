@@ -78,7 +78,7 @@ function PositionSituTanker() {
             ],
         };
 
-        return <Pie {...config1} style = {{position:"absolute", marginLeft: "80%", width: "500px"}}/>
+        return <Pie {...config1} style = {{position:"absolute", marginLeft: "70%", width: "500px"}}/>
       }
 
       function two() {
@@ -138,7 +138,7 @@ function PositionSituTanker() {
               },
             ],
         };
-        return <Pie {...config2} style = {{position:"absolute", marginLeft: "80%", width: "500px"}}/>
+        return <Pie {...config2} style = {{position:"absolute", marginLeft: "70%", width: "500px"}}/>
       }
 
       function third() {
@@ -198,7 +198,7 @@ function PositionSituTanker() {
               },
             ],
         };
-        return <Pie {...config3} style = {{position:"absolute", marginLeft: "80%", width: "500px"}}/>
+        return <Pie {...config3} style = {{position:"absolute", marginLeft: "70%", width: "500px"}}/>
       }
 
       function four() {
@@ -258,7 +258,7 @@ function PositionSituTanker() {
               },
             ],
         };
-        return <Pie {...config4} style = {{position:"absolute", marginLeft: "80%", width: "500px"}}/>
+        return <Pie {...config4} style = {{position:"absolute", marginLeft: "70%", width: "500px"}}/>
       }
 
     

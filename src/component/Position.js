@@ -42,7 +42,7 @@ function Position() {
 
         <Option value="돌격군(Tanker)">돌격군(Tanker)</Option>
         <Option value="공격군(Dealer)" >공격군(Dealer)</Option>
-        <Option value="지원군(Healer)" >지원군(Dealer)</Option>
+        <Option value="지원군(Healer)" >지원군(Healer)</Option>
         </Select>
 
         </div>

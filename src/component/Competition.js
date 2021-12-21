@@ -357,26 +357,26 @@ function Competition() {
 
         <div style={{marginLeft:"40px", fontSize: "20px"}}><br/>
         <img src = {mercy} style = {{width: '90px', position:"absolute", marginTop: "0px"}}/>
-        <b style = {{position:"absolute", fontSize: "35px", marginLeft: "5%"}}>1위 메르시</b>
-        <p style = {{position:"absolute", marginTop: "50px", marginLeft: "5%"}}>누적 횟수 횟수: 5번</p>
+        <b style = {{position:"absolute", fontSize: "35px", marginLeft: "6%"}}>1위 메르시</b>
+        <p style = {{position:"absolute", marginTop: "50px", marginLeft: "6%"}}>누적 횟수 횟수: 5번</p>
 
         <img src = {ana} style = {{width: '90px', position:"absolute", marginTop: "155px", marginLeft:"10px"}}/>
-        <b style = {{position:"absolute", fontSize: "35px", marginLeft: "5%", marginTop: "150px"}}>2위 아나</b>
-        <p style = {{position:"absolute", marginTop: "50px", marginLeft: "5%", marginTop: "200px"}}>누적 횟수 횟수: 4번</p>
+        <b style = {{position:"absolute", fontSize: "35px", marginLeft: "6%", marginTop: "150px"}}>2위 아나</b>
+        <p style = {{position:"absolute", marginTop: "50px", marginLeft: "6%", marginTop: "200px"}}>누적 횟수 횟수: 4번</p>
 
         <img src = {lucio} style = {{width: '90px', position:"absolute", marginTop: "320px", marginLeft:"6px"}}/>
-        <b style = {{position:"absolute", fontSize: "35px", marginLeft: "5%", marginTop: "300px"}}>3위 루시우</b>
-        <p style = {{position:"absolute", marginTop: "50px", marginLeft: "5%", marginTop: "350px"}}>누적 횟수 횟수: 3번</p>
+        <b style = {{position:"absolute", fontSize: "35px", marginLeft: "6%", marginTop: "300px"}}>3위 루시우</b>
+        <p style = {{position:"absolute", marginTop: "50px", marginLeft: "6%", marginTop: "350px"}}>누적 횟수 횟수: 3번</p>
         {two()}
         <Table dataSource={dataSource} columns={columns} style = {{width: "30%", marginLeft: "20%", fontSize: "10px"}} scroll={{ y: 300, x: 500 }}/>
         </div>
-        <br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/>
 
         <PieChartOutlined style = {{fontSize: "30px", marginLeft: "40px", marginTop: "50px"}}/>
         <b style = {{fontFamily: "koverwatch", fontSize: "30px", position:"absolute", marginTop:"40px", marginLeft:"10px" }}> 전체 통계 </b>
         <ex style = {{marginLeft: "120px", fontSize: "17px", color: "#787A69"}}>
         총 시즌의 평균 특성을 알려드립니다.
-        </ex>
+        </ex><br/><br/>
         {rader()}
         <br/><br/><br/><br/><br/><br/>
 
